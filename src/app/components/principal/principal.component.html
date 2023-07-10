@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0beac2d065.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <img class="logo" src="img/logo.png" alt="">
+            <img class="logosilabo" src="img/silabo.png" alt="">
+            <h1>Automatización de sílabos ULEAM</h1>
+        </div>
+        <div class="cabecera2">
+            <div class="cabecera2">
+                <button class="pefil" routerLink="/perfil">Perfil<i class="fas fa-search"></i></button>
+                <button class="home" routerLink="/">Salir<i></i></button>
+            </div>
+        </div>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li>
+                    <a routerLink="/principal"> <i class="fas fa-pen-square"></i> Gestion de sílabos</a>
+                    <ul class="submenu">
+                        <li><a routerLink="/registroasignatura"> Registrar asignatura  <i class="fas fa-pencil-alt"></i> </a></li>
+                        <li><a routerLink="/registrosilabo">Subir sílabo <i class="fas fa-upload"></i> </a></li>
+                    </ul>
+                </li>
+                <li><a routerLink="/silabos"><i class="fas fa-bookmark"></i> Silabos</a>
+
+                </li>
+                <li>
+                    <a routerLink="/docentes"> <i class="far fa-user"></i> Docente</a>
+                </li>
+                <li><a routerLink="/asignatura"><i class="fas fa-book"></i> Asignaturas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <p class="titulo1"> <i class="  fas fa-bookmark"></i> Destacados</p>
+    <section class="destacado">
+        <div class="grid-container">
+            <div class="destacado1">
+                <h2>Destacado 1 </h2><br>
+                <img class="imag" src="../../../assets/img/img1.jpg" alt=""><br><br>
+                <h3>Aplicaciones web I</h3> <br>
+                <p><strong>Docente:</strong> Ing. Patricia Quiroz</p>
+                <p><strong>Semestre:</strong> Quinto</p>
+                <p><strong>Carrera:</strong> Tecnología de la Información</p>
+            </div>
+            <div class="destacado1">
+                <h2>Destacado 2 </h2><br>
+                <img class="imag" src="../../../assets/img/img2.jpg" alt=""><br><br>
+                <h3>Redes de Computadora</h3> <br>
+                <p><strong>Docente:</strong> Ing. Juan Carlos Sendón</p>
+                <p><strong>Semestre:</strong> Quinto</p>
+                <p><strong>Carrera:</strong> Tecnología de la Información</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="grid-container">
+            <div class="info">
+                <h4>Sobre nosostros</h4>
+                <a routerLink="/sobrenosotros" style="text-decoration: none; color: #000;"> ¿Quienes somos?</a> <br>
+                <a routerLink="/contactanos" style="text-decoration: none; color: #000;"> Contactanos</a> <br>
+            </div>
+            <div class="redes">
+                <h4>Redes sociales</h4>
+                <a class="rede" routerLink="https://mail.google.com/mail?hl=es">Gmail<i class="fas fa-envelope"></i></a>
+                <a class="rede" routerLink="https://www.facebook.com/"> Facebook<i class="fab fa-facebook-square"></i></a>
+                <a class="rede" routerLink="https://www.instagram.com/">Instagram<i class="fab fa-instagram-square"></i></a>
+            </div>
+        </div>
+        <div class="copy">
+            <p style="text-align:center">© Software automatización de sílabos ULEAM - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
